@@ -1,0 +1,1012 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2016603517783177017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4035839077082508903}
+  - component: {fileID: 8678948333959580814}
+  - component: {fileID: 9005044516247995944}
+  - component: {fileID: 3387130774839438700}
+  - component: {fileID: 5484664173556860268}
+  m_Layer: 0
+  m_Name: DataHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4035839077082508903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016603517783177017}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6233754, y: 1.3544121, z: -3.5714543}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8678948333959580814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016603517783177017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa6472b517e1f24caeab7a5744aa33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profesores: []
+  estudiantes: []
+  examenes: []
+  preguntas: []
+  codigos: []
+  videos:
+  - nombre: AESP1
+    animacion: {fileID: 7400000, guid: 96ae81cdc0d21054ea409e4e09908191, type: 2}
+    verde: {fileID: 21300000, guid: 7efe4b0df51985b4db99d7bc98aa432f, type: 3}
+    rojo: {fileID: 21300000, guid: 86acbb421eaf0f1418a2b8cfd22bbae2, type: 3}
+    amarillo: {fileID: 21300000, guid: bf7d3b250a9352841aeaac46752f2a1e, type: 3}
+    azul: {fileID: 21300000, guid: b4ae3cf349d3201468e2d06d2dcfe798, type: 3}
+    verde1: {fileID: 21300000, guid: b0e6c4bd1a1870845bc50d0e556c8ef1, type: 3}
+    rojo1: {fileID: 21300000, guid: 48e114054508ecf4cb714f541e679cc9, type: 3}
+    amarillo1: {fileID: 21300000, guid: c4ee5458c4018aa4a9f83bc3c0fbdf98, type: 3}
+    azul1: {fileID: 21300000, guid: b2d7ec961b37cb84abe1d2062468dae9, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 70
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 86/46
+      NIPB2: (58)
+      Timer: 6:48
+      Interval: Interval 9 min
+  - nombre: ASISTOLIA
+    animacion: {fileID: 7400000, guid: 6d26078c8fadd7744aa12ffcc194e894, type: 2}
+    verde: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
+    rojo: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
+    amarillo: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
+    azul: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
+    verde1: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
+    rojo1: {fileID: 21300000, guid: 858a68cc2a0b4b54185a701755f6f777, type: 3}
+    amarillo1: {fileID: 21300000, guid: 29f6cdcf5ed79884b80c6cd6dc187222, type: 3}
+    azul1: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
+    rrpm: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
+    rrpm1: {fileID: 21300000, guid: 96a9e760934187f45ab972b3149924c3, type: 3}
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: 0(0)
+      Timer: 5:02
+      Interval: Interval 9 min
+  - nombre: BLOQ AV 1G
+    animacion: {fileID: 7400000, guid: 415c8457557b82440abf2d4c18c552d3, type: 2}
+    verde: {fileID: 21300000, guid: de8e3337ac8ce02428b941c67e661fd8, type: 3}
+    rojo: {fileID: 21300000, guid: c0e8a1e5af5623b40ae8b7782708f1ac, type: 3}
+    amarillo: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
+    azul: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
+    verde1: {fileID: 21300000, guid: de8e3337ac8ce02428b941c67e661fd8, type: 3}
+    rojo1: {fileID: 21300000, guid: c0e8a1e5af5623b40ae8b7782708f1ac, type: 3}
+    amarillo1: {fileID: 21300000, guid: 02a9877eb36d95f458b1f1f7d3ce5e0e, type: 3}
+    azul1: {fileID: 21300000, guid: bd98a5baad2416241bc8e2244e4e080a, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 80
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 2:15
+      Interval: Interval 5 min
+  - nombre: BLOQ AV2 M1
+    animacion: {fileID: 7400000, guid: 50a9b318a626dba469aef8ad954ae9f7, type: 2}
+    verde: {fileID: 21300000, guid: f51157e06ceba91479765791d794516f, type: 3}
+    rojo: {fileID: 21300000, guid: 8024dcf1b557cdf4785cbd37ba2fda2e, type: 3}
+    amarillo: {fileID: 21300000, guid: 106bdde470d454046bed5e8ea798c407, type: 3}
+    azul: {fileID: 21300000, guid: f565ff50b761ddf40adb8cb5ff3ea8ed, type: 3}
+    verde1: {fileID: 21300000, guid: 4306884705ab5e14cae7a79370982d8f, type: 3}
+    rojo1: {fileID: 21300000, guid: 3f9d78bc1ac1b5a4a9ad36f751984453, type: 3}
+    amarillo1: {fileID: 21300000, guid: b0354499c92444b4fa24a66126c5a132, type: 3}
+    azul1: {fileID: 21300000, guid: 2f631fcaf1dad9e48bf86ea93000e9a1, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 55
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 0:44
+      Interval: Interval 5 min
+    - HRBPM: 62
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 0:44
+      Interval: Interval 5 min
+    - HRBPM: 63
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 0:44
+      Interval: Interval 5 min
+  - nombre: BLOQ AV2 M2
+    animacion: {fileID: 7400000, guid: 669aaa5864db43641af2194a27cb6040, type: 2}
+    verde: {fileID: 21300000, guid: 5de7d106f250ef24dbcd49e857f908fb, type: 3}
+    rojo: {fileID: 21300000, guid: 9b2cda000a72d0645a196f359a73a9bb, type: 3}
+    amarillo: {fileID: 21300000, guid: 31f810f2a45b6654ab512f50344a8299, type: 3}
+    azul: {fileID: 21300000, guid: 9847909e115fad74fb3a88761ecfa0eb, type: 3}
+    verde1: {fileID: 21300000, guid: 67f55052686d9ff4f838be989e769350, type: 3}
+    rojo1: {fileID: 21300000, guid: 8002a9a13005249488e00eea7381290f, type: 3}
+    amarillo1: {fileID: 21300000, guid: d49359bf6ee07bf4c826802bb78919a9, type: 3}
+    azul1: {fileID: 21300000, guid: 19a738206c9076548b4221d70ac9c8f5, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 48
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 4:31
+      Interval: Interval 5 min
+    - HRBPM: 40
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 4:31
+      Interval: Interval 5 min
+  - nombre: BLOQ AV 3G
+    animacion: {fileID: 7400000, guid: d0dfa347ebb8bb3478e525f7f925f869, type: 2}
+    verde: {fileID: 21300000, guid: c3052a807a814df439a4688b984f1fb3, type: 3}
+    rojo: {fileID: 21300000, guid: 2f51f6e67074a904482c64c299a90d54, type: 3}
+    amarillo: {fileID: 21300000, guid: 904024e36209dbd43854a00b1c628bf1, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
+    verde1: {fileID: 21300000, guid: 2d33763bb6f0fe5419d50b8ff38ea842, type: 3}
+    rojo1: {fileID: 21300000, guid: ec20bc3cc3a11e64daa830d891bafff7, type: 3}
+    amarillo1: {fileID: 21300000, guid: 8eea2136e4b1a0a4aac26275d698efe4, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 29
+      ABP1: 88/48
+      ABP2: (61)
+      SpO2: 98
+      CO2: 38
+      RespRate: 20
+      TempC: 37.2
+      NIPB1: 94/54
+      NIPB2: (67)
+      Timer: 2:34
+      Interval: Interval 5 min
+  - nombre: BRAD SINUSAL
+    animacion: {fileID: 7400000, guid: e336d252580967d48a2c305ebe7899ab, type: 2}
+    verde: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
+    rojo: {fileID: 21300000, guid: 187fb8b71e9a09343a10222c685d5233, type: 3}
+    amarillo: {fileID: 21300000, guid: bb5ab4afe41805d49a922cf051209744, type: 3}
+    azul: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
+    verde1: {fileID: 21300000, guid: 8fe3241592c1ca045a860963c52aad1a, type: 3}
+    rojo1: {fileID: 21300000, guid: 9a7826b394515494ea55924469ed825b, type: 3}
+    amarillo1: {fileID: 21300000, guid: 9511f5a79f6d9c24c8f93120c66804cb, type: 3}
+    azul1: {fileID: 21300000, guid: 14c383819e4fad14198c5c604b541e54, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 44
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 16
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 1:10
+      Interval: Interval 9 min
+  - nombre: FA ESTABLE
+    animacion: {fileID: 7400000, guid: f4fdfbacce3f6cb4b96b960bac9bddab, type: 2}
+    verde: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
+    rojo: {fileID: 21300000, guid: 5bf32d80ce28a714d9f07bc7730ec1b4, type: 3}
+    amarillo: {fileID: 21300000, guid: 39f3eed669205264486cff14f9784095, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
+    verde1: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
+    rojo1: {fileID: 21300000, guid: 3aec4e5b90004ee4ca7182feae769246, type: 3}
+    amarillo1: {fileID: 21300000, guid: 0314a127e60b2a1459709d7463afd53d, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 150
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 144
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 158
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 156
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 149
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 150
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 40
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/70
+      NIPB2: (73)
+      Timer: 108
+      Interval: Interval 5 min
+  - nombre: FA INESTABLE
+    animacion: {fileID: 7400000, guid: bcac764c5d0f2814db7288a81c8c3707, type: 2}
+    verde: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
+    rojo: {fileID: 21300000, guid: 7304d54ef68e18742998f4cca60b3d32, type: 3}
+    amarillo: {fileID: 21300000, guid: 7f83754d8a21b5e489b79669e9bf3394, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
+    verde1: {fileID: 21300000, guid: b1c86885914fb364a900610e4b2db38f, type: 3}
+    rojo1: {fileID: 21300000, guid: 4723a73832aafcd42b51dbd754e91617, type: 3}
+    amarillo1: {fileID: 21300000, guid: 89e8ed125c8476c4180631193ef0e48f, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 158
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 156
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 149
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 150
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 146
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 144
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 138
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 134
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 158
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 156
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 149
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 147
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+    - HRBPM: 151
+      ABP1: 80/60
+      ABP2: (66)
+      SpO2: 80
+      CO2: 35
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 80/60
+      NIPB2: (66)
+      Timer: 171
+      Interval: Interval 5 min
+  - nombre: TV ESTABLE
+    animacion: {fileID: 7400000, guid: d3558cb6e648bf34c9fd9a32aae85bf5, type: 2}
+    verde: {fileID: 21300000, guid: 77bed5dd4c98296459129ca9ac3c3d2c, type: 3}
+    rojo: {fileID: 21300000, guid: 1678ba24fbf568c41ad898b89a40d850, type: 3}
+    amarillo: {fileID: 21300000, guid: e4299d59831bf7d45829a0df09323a07, type: 3}
+    azul: {fileID: 21300000, guid: edffab60f54513542a6ef6a7b1fb39ca, type: 3}
+    verde1: {fileID: 21300000, guid: 3e54f0c6381f7c349871062ad413c225, type: 3}
+    rojo1: {fileID: 21300000, guid: 5c568e3ea7880b144bb0de642536e163, type: 3}
+    amarillo1: {fileID: 21300000, guid: fbf10bb1058c810429b6577baa2ec647, type: 3}
+    azul1: {fileID: 21300000, guid: db49a2988d133c04ca1c8cb6ecba957b, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 130/80
+      ABP2: (96)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 227
+      Interval: Interval 5 min
+  - nombre: TV INESTABLE
+    animacion: {fileID: 7400000, guid: 53defbafbd2ebd741b07fc5aa8791b71, type: 2}
+    verde: {fileID: 21300000, guid: 77bed5dd4c98296459129ca9ac3c3d2c, type: 3}
+    rojo: {fileID: 21300000, guid: 1678ba24fbf568c41ad898b89a40d850, type: 3}
+    amarillo: {fileID: 21300000, guid: e4299d59831bf7d45829a0df09323a07, type: 3}
+    azul: {fileID: 21300000, guid: edffab60f54513542a6ef6a7b1fb39ca, type: 3}
+    verde1: {fileID: 21300000, guid: 3e54f0c6381f7c349871062ad413c225, type: 3}
+    rojo1: {fileID: 21300000, guid: 5c568e3ea7880b144bb0de642536e163, type: 3}
+    amarillo1: {fileID: 21300000, guid: fbf10bb1058c810429b6577baa2ec647, type: 3}
+    azul1: {fileID: 21300000, guid: db49a2988d133c04ca1c8cb6ecba957b, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 86/44
+      ABP2: (57)
+      SpO2: 87
+      CO2: '---'
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 107
+      Interval: Interval 5 min
+  - nombre: TV SP
+    animacion: {fileID: 7400000, guid: 1e47836e3e838794685c31d0d1324f0e, type: 2}
+    verde: {fileID: 21300000, guid: fdec8764f5287cb40aa9e99cf81e492c, type: 3}
+    rojo: {fileID: 21300000, guid: fd8341984e1a78b4184efb623a76bbdd, type: 3}
+    amarillo: {fileID: 21300000, guid: 2b953563222b26b4987cacc6abf2b5e4, type: 3}
+    azul: {fileID: 21300000, guid: 8aa7b01fecd650e4485fbf395303e6cc, type: 3}
+    verde1: {fileID: 21300000, guid: 082bfe7b6556bb64eb7cfffbf7612c65, type: 3}
+    rojo1: {fileID: 21300000, guid: 0fb70065bfbee7e4f9d13b7e55c895e1, type: 3}
+    amarillo1: {fileID: 21300000, guid: eea6563ed1939ac469a13d2d8a0889c5, type: 3}
+    azul1: {fileID: 21300000, guid: e07d1171c7a73234fae695aa3ae44ddf, type: 3}
+    rrpm: {fileID: 21300000, guid: 8aa7b01fecd650e4485fbf395303e6cc, type: 3}
+    rrpm1: {fileID: 21300000, guid: e07d1171c7a73234fae695aa3ae44ddf, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 16
+      Interval: Interval 5 min
+  - nombre: TAQ SV ESTABLE
+    animacion: {fileID: 7400000, guid: 047222a8c6fcad647b82cf1af7d56ba3, type: 2}
+    verde: {fileID: 21300000, guid: 36ba80cb50892c147b8e8b9c94b6e326, type: 3}
+    rojo: {fileID: 21300000, guid: 030a8051cc156b34d9f0290f408425bd, type: 3}
+    amarillo: {fileID: 21300000, guid: 022572a79b2e3914fa90c44ca8d87025, type: 3}
+    azul: {fileID: 21300000, guid: ac98fb44e8e02414bb7d6df9adc1db2d, type: 3}
+    verde1: {fileID: 21300000, guid: 865f00204f54c304cafa9381567b2b00, type: 3}
+    rojo1: {fileID: 21300000, guid: bfec3847b978fb0438b74c7018448bb3, type: 3}
+    amarillo1: {fileID: 21300000, guid: 002536722d5b1de418dc8cd71e2e356c, type: 3}
+    azul1: {fileID: 21300000, guid: d427b1526c2b2ff429279ccef0e59610, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 82/62
+      NIPB2: (68)
+      Timer: 59
+      Interval: Interval 5 min
+  - nombre: TAQ SV INESTABLE
+    animacion: {fileID: 7400000, guid: 363d8f0e08d599f478e908ef7b64c308, type: 2}
+    verde: {fileID: 21300000, guid: 36ba80cb50892c147b8e8b9c94b6e326, type: 3}
+    rojo: {fileID: 21300000, guid: 64b72c6e924a172439e3624ac32757ae, type: 3}
+    amarillo: {fileID: 21300000, guid: d501ebbc0f4fe1248b1614c4097c934d, type: 3}
+    azul: {fileID: 21300000, guid: cd82dabd3e8d09847a665e19b6c2bc98, type: 3}
+    verde1: {fileID: 21300000, guid: 865f00204f54c304cafa9381567b2b00, type: 3}
+    rojo1: {fileID: 21300000, guid: c2f0e3e026dce9241825faf7653981cd, type: 3}
+    amarillo1: {fileID: 21300000, guid: 4daf2ce53a9c88d469eb8f81a31f101c, type: 3}
+    azul1: {fileID: 21300000, guid: 02e7df993f665fa46acaee320eecee82, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 182
+      ABP1: 82/64
+      ABP2: (69)
+      SpO2: 98
+      CO2: '---'
+      RespRate: 23
+      TempC: 37.2
+      NIPB1: 120/80
+      NIPB2: (93)
+      Timer: 231
+      Interval: Interval 5 min
+  - nombre: TQ SINUSAL
+    animacion: {fileID: 7400000, guid: 52413d7af99d3da4f9243122ee446440, type: 2}
+    verde: {fileID: 21300000, guid: b3e03dac002c3e3438b5016c61a9c654, type: 3}
+    rojo: {fileID: 21300000, guid: c2a5d8f7487550b4ab891b4ad32efb2b, type: 3}
+    amarillo: {fileID: 21300000, guid: 495744a01c167db4a9fa7f49de098043, type: 3}
+    azul: {fileID: 21300000, guid: 97aff510539fafd44af692070a15d54a, type: 3}
+    verde1: {fileID: 21300000, guid: b3e03dac002c3e3438b5016c61a9c654, type: 3}
+    rojo1: {fileID: 21300000, guid: 61f377559b9682541b53a2a43f0f2c7f, type: 3}
+    amarillo1: {fileID: 21300000, guid: 98a2a9661f9c24f4a8d1ac287325f2ce, type: 3}
+    azul1: {fileID: 21300000, guid: dcc6191a1eb0f5e42baf4afed3f9a46f, type: 3}
+    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
+    numbers:
+    - HRBPM: 140
+      ABP1: 120/80
+      ABP2: (93)
+      SpO2: 98
+      CO2: 34
+      RespRate: 19
+      TempC: 37.2
+      NIPB1: 110/70
+      NIPB2: (83)
+      Timer: 168
+      Interval: Interval 9 min
+  - nombre: FV GRUESA
+    animacion: {fileID: 7400000, guid: f2995da19dad28e4ca3188bc248350a7, type: 2}
+    verde: {fileID: 21300000, guid: b97dd1f29d0884649b45cb974481513c, type: 3}
+    rojo: {fileID: 21300000, guid: 970f0830a01e8104c9020f9f9b34c948, type: 3}
+    amarillo: {fileID: 21300000, guid: a8ad68fbb61e1be498698bd9b32adc81, type: 3}
+    azul: {fileID: 21300000, guid: 2fa04030d14df254d8ead5a21ef84247, type: 3}
+    verde1: {fileID: 21300000, guid: b712c4129c2491444b418a4f1f9eeebd, type: 3}
+    rojo1: {fileID: 21300000, guid: 950bfbc1fef056b44a984228d1358a4d, type: 3}
+    amarillo1: {fileID: 21300000, guid: 9d162f4c9ddcb9c40a2f5e16c4ae463b, type: 3}
+    azul1: {fileID: 21300000, guid: 51a19061058d275419119130f0146528, type: 3}
+    rrpm: {fileID: 21300000, guid: 2fa04030d14df254d8ead5a21ef84247, type: 3}
+    rrpm1: {fileID: 21300000, guid: 51a19061058d275419119130f0146528, type: 3}
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 147
+      Interval: Interval 5 min
+  - nombre: TORSION DE PUNTA
+    animacion: {fileID: 7400000, guid: f8c9d92a10283614094af3c044570213, type: 2}
+    verde: {fileID: 21300000, guid: 5a0866ff0f2ed4d478feef0e39858b5e, type: 3}
+    rojo: {fileID: 21300000, guid: 578d380ee7cbbfa4c803ac4ede4bb7dd, type: 3}
+    amarillo: {fileID: 21300000, guid: cdd6b325e8bd1d045af4b947f6c438df, type: 3}
+    azul: {fileID: 21300000, guid: 547b63a50d98a6740b021f1c550cd716, type: 3}
+    verde1: {fileID: 21300000, guid: ff961422c71da384597ac840b8848c52, type: 3}
+    rojo1: {fileID: 21300000, guid: 5bad7b0b653fd7a489b76a63c0117d61, type: 3}
+    amarillo1: {fileID: 21300000, guid: 0c38a9e24988f1a4788cad5cc57a579d, type: 3}
+    azul1: {fileID: 21300000, guid: d8600020697817140a4ae75131541979, type: 3}
+    rrpm: {fileID: 21300000, guid: 547b63a50d98a6740b021f1c550cd716, type: 3}
+    rrpm1: {fileID: 21300000, guid: d8600020697817140a4ae75131541979, type: 3}
+    numbers:
+    - HRBPM: '---'
+      ABP1: 0/0
+      ABP2: (0)
+      SpO2: '---'
+      CO2: '---'
+      RespRate: '---'
+      TempC: 37.2
+      NIPB1: 0/0
+      NIPB2: (0)
+      Timer: 147
+      Interval: Interval 5 min
+--- !u!114 &9005044516247995944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016603517783177017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ee8cd34aae5c440be2e1e0809dfb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions: []
+--- !u!114 &3387130774839438700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016603517783177017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b290467a04b42346a4cde4935a64dec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  estudiante:
+    id: 
+    nombre: 
+    apellido: 
+  dataLoader: {fileID: 8678948333959580814}
+  examen:
+    id: 
+    nombre: 
+    profesor:
+      id: 
+      nombre: 
+      apellido: 
+    preguntas: []
+  preguntas: []
+--- !u!114 &5484664173556860268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016603517783177017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7027b408cc839c6458f36a835a95526c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profesor:
+    id: 
+    nombre: 
+    apellido: 
