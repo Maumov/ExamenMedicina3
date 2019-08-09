@@ -1543,20 +1543,11 @@ PrefabInstance:
       propertyPath: NextView
       value: 
       objectReference: {fileID: 6806680082184670024}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> master
     - target: {fileID: 3614821436490937938, guid: 8393985ca7ef9394f8235d847c047c8a,
         type: 3}
       propertyPath: PreviusView
       value: 
       objectReference: {fileID: 89862434}
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> master
     - target: {fileID: 6103630480529681415, guid: 8393985ca7ef9394f8235d847c047c8a,
         type: 3}
       propertyPath: m_SizeDelta.y
