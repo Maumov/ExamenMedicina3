@@ -241,20 +241,32 @@ public class DataLoader : MonoBehaviour {
     Question CreatePregunta(string data) {
         
         Question p = new Question();
+        //Debug.Log(data);
         string[] d = data.Split('{');
-
+        //Debug.Log(d[0]);
+        //Debug.Log(d[1]);
+        //Debug.Log(d[2]);
         string[] values = d[0].Split(',');
-
         string[] parrafoSplit = d[0].Split('"');
+        //Debug.Log(parrafoSplit[0]);
+        //Debug.Log(parrafoSplit[1]);
+        //Debug.Log(parrafoSplit[2]);
+
         p.id = values[0];
-        p.parrafo = parrafoSplit[1];
-        p.video = parrafoSplit[2].Substring(1,parrafoSplit[2].Length-2);
-
+        if(parrafoSplit.Length > 1) {
+            p.parrafo = parrafoSplit[1];
+            p.video = parrafoSplit[2].Substring(1, parrafoSplit[2].Length - 2);
+        } else {
+            p.parrafo = values[1];
+            p.video = values[2];
+        }
         p.preguntas = new List<string>();
-        d[1] = d[1].Substring(0, d[1].Length - 1);
+        //Debug.Log(d[1]);
+        //d[1] = d[1].Substring(0, d[1].Length - 1);
         string[] d2 = d[1].Split('}');
-        p.preguntas.AddRange(d2[0].Split(';'));
-
+        if(d2[0].Length > 0) {
+            p.preguntas.AddRange(d2[0].Split(';'));
+        }
         p.respuestas = new List<string>();
         d[2] = d[2].Substring(0, d[2].Length - 1);
         string[] d3 = d[2].Split('}');

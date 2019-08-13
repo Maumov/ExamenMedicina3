@@ -14,10 +14,11 @@ public class ExamenViewer : MonoBehaviour {
     public GameObject Pregunta;
     public GameObject Video;
     public GameObject Respuesta;
+    public GameObject multiRespuesta;
 
     public DataLoader dataLoader;
 
-    int currentPregunta = 0;
+    public int currentPregunta = 0;
 
     public List<InputField> inputs;
 
@@ -38,7 +39,7 @@ public class ExamenViewer : MonoBehaviour {
         ShowQuestion();
     }
 
-    public void ShowQuestion() {
+    public virtual void ShowQuestion() {
         inputs = new List<InputField>();
         if(currentPregunta < examen.preguntas.Count) {
             CreatePreguntaPack(examen.preguntas[currentPregunta]);
@@ -71,7 +72,7 @@ public class ExamenViewer : MonoBehaviour {
         videoController.StopVideo();
     }
 
-    public void NextQuestion() {
+    public virtual void NextQuestion() {
         for(int i = 0; i < inputs.Count; i++  ) {
             studentControl.SetAnswerToQuestion(currentPregunta, i, inputs[i].text);
         }
@@ -95,8 +96,8 @@ public class ExamenViewer : MonoBehaviour {
             CreatePregunta(q.preguntas[i]);
             CreateRespuesta();
         }
-        for(int i = 0; i < q.respuestas.Count; i++) {
-            CreatePregunta(q.respuestas[i]);
+        if(q.respuestas.Count > 0) {
+            CreateMultiRespuesta(q.respuestas.ToArray());
         }
     }
    
@@ -118,6 +119,26 @@ public class ExamenViewer : MonoBehaviour {
         inputs.Add(go.GetComponent<InputField>());
         go.name = go.name + inputs.Count;
     }
+
+    public void CreateMultiRespuesta(string[] respuestas) {
+        GameObject go = Instantiate(multiRespuesta, origin);
+        Toggle[] toggles = go.GetComponentsInChildren<Toggle>();
+        for(int i = 0; i <  toggles.Length; i++) {
+            if(toggles[i].name.Equals("Option 1")) {
+                toggles[i].GetComponentInChildren<Text>().text = respuestas[0];
+            }
+            if(toggles[i].name.Equals("Option 2")) {
+                toggles[i].GetComponentInChildren<Text>().text = respuestas[1];
+            }
+            if(toggles[i].name.Equals("Option 3")) {
+                toggles[i].GetComponentInChildren<Text>().text = respuestas[2];
+            }
+            if(toggles[i].name.Equals("Option 4")) {
+                toggles[i].GetComponentInChildren<Text>().text = respuestas[3];
+            }
+        }
+    }
+
 
     public void DeleteContent() {
         RectTransform[] gos = origin.GetComponentsInChildren<RectTransform>();

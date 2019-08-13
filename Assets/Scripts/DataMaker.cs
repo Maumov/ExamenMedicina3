@@ -22,7 +22,7 @@ public class DataMaker : MonoBehaviour {
         form.AddField("entry.757561497",  question.parrafo);
         form.AddField("entry.1228001765",  question.video);
         form.AddField("entry.1168160256",  GeneratePreguntasJSON(question));
-        form.AddField("entry.1282939077", GeneratePreguntasJSON(question));
+        form.AddField("entry.1282939077", GenerateRespuestasJSON(question));
 
         WWW www = new WWW(url, form);
         yield return www;
@@ -104,7 +104,10 @@ public class DataMaker : MonoBehaviour {
         for(int i = 0; i < question.preguntas.Count-1; i++) {
             preguntas += question.preguntas[i]+";";
         }
-        preguntas += question.preguntas[question.preguntas.Count-1] + "}";
+        if(preguntas.EndsWith(";")) {
+            preguntas += question.preguntas[question.preguntas.Count - 1];
+        }
+        preguntas += "}";
         return preguntas;
     }
 
@@ -113,7 +116,10 @@ public class DataMaker : MonoBehaviour {
         for(int i = 0; i < question.respuestas.Count - 1; i++) {
             preguntas += question.respuestas[i] + ";";
         }
-        preguntas += question.respuestas[question.respuestas.Count - 1] + "}";
+        if(preguntas.EndsWith(";")) {
+            preguntas += question.respuestas[question.respuestas.Count - 1];
+        }
+        preguntas += "}";
         return preguntas;
     }
 
