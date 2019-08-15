@@ -1298,6 +1298,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa991d9f7f2d144ca6511d95ad2fbaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  studentControl: {fileID: 0}
+  examen:
+    id: 
+    nombre: 
+    profesor:
+      id: 
+      nombre: 
+      apellido: 
+    preguntas: []
+  origin: {fileID: 0}
+  Parrafo: {fileID: 0}
+  Pregunta: {fileID: 0}
+  Video: {fileID: 0}
+  Respuesta: {fileID: 0}
+  multiRespuesta: {fileID: 0}
+  dataLoader: {fileID: 0}
+  currentPregunta: 0
+  inputs: []
+  videoController: {fileID: 0}
+  videoControllerGameObject: {fileID: 0}
+  NextInterface: {fileID: 0}
+  videoMessage: {fileID: 0}
 --- !u!114 &1199205207 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1258880354794109348, guid: 69bf161fff3d0264b8340c33422596c9,

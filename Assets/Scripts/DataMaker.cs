@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class DataMaker : MonoBehaviour {
 
@@ -24,9 +25,18 @@ public class DataMaker : MonoBehaviour {
         form.AddField("entry.1168160256",  GeneratePreguntasJSON(question));
         form.AddField("entry.1282939077", GenerateRespuestasJSON(question));
 
-        WWW www = new WWW(url, form);
-        yield return www;
-        Debug.Log(www.text);
+        //WWW www = new WWW(url, form);
+        using(UnityWebRequest www = UnityWebRequest.Post(url, form)) {
+            yield return www.SendWebRequest();
+
+            if(www.isNetworkError || www.isHttpError) {
+                Debug.Log(www.error);
+            } else {
+                Debug.Log("Form upload complete!");
+            }
+        }
+        //yield return www;
+        //Debug.Log(www.text);
         yield return null;
         Debug.Log("Sent");
     }
@@ -44,9 +54,18 @@ public class DataMaker : MonoBehaviour {
         form.AddField("entry.1757591822", profesor.nombre);
         form.AddField("entry.1222460419", profesor.apellido);
 
-        WWW www = new WWW(url, form);
-        yield return www;
-        Debug.Log(www.text);
+        //WWW www = new WWW(url, form);
+        using(UnityWebRequest www = UnityWebRequest.Post(url, form)) {
+            yield return www.SendWebRequest();
+
+            if(www.isNetworkError || www.isHttpError) {
+                Debug.Log(www.error);
+            } else {
+                Debug.Log("Form upload complete!");
+            }
+        }
+        //yield return www;
+        //Debug.Log(www.text);
         yield return null;
         Debug.Log("Sent");
     }
@@ -64,9 +83,18 @@ public class DataMaker : MonoBehaviour {
         form.AddField("entry.1984751887",  estudiante.nombre);
         form.AddField("entry.617746056", estudiante.apellido);
 
-        WWW www = new WWW(url, form);
-        yield return www;
-        Debug.Log(www.text);
+        //WWW www = new WWW(url, form);
+        using(UnityWebRequest www = UnityWebRequest.Post(url, form)) {
+            yield return www.SendWebRequest();
+
+            if(www.isNetworkError || www.isHttpError) {
+                Debug.Log(www.error);
+            } else {
+                Debug.Log("Form upload complete!");
+            }
+        }
+        //yield return www;
+        //Debug.Log(www.text);
         yield return null;
         Debug.Log("Sent");
     }
@@ -83,9 +111,18 @@ public class DataMaker : MonoBehaviour {
         form.AddField("entry.2083147523", examen.nombre);
         form.AddField("entry.1971879306",  examen.profesor.id);
         form.AddField("entry.1477725636",  GenerateExamenPreguntasIdsJSON(examen.preguntas));
-        WWW www = new WWW(url, form);
-        yield return www;
-        Debug.Log(www.text);
+        //WWW www = new WWW(url, form);
+        using(UnityWebRequest www = UnityWebRequest.Post(url, form)) {
+            yield return www.SendWebRequest();
+
+            if(www.isNetworkError || www.isHttpError) {
+                Debug.Log(www.error);
+            } else {
+                Debug.Log("Form upload complete!");
+            }
+        }
+        //yield return www;
+        //Debug.Log(www.text);
         yield return null;
         Debug.Log("Sent");
     }
@@ -137,9 +174,19 @@ public class DataMaker : MonoBehaviour {
         form.AddField("entry.761260333", codigo.examen);
         form.AddField("entry.596794584", codigo.fechaInicio);
         form.AddField("entry.305779192", codigo.fechaFin);
-        WWW www = new WWW(url, form);
-        yield return www;
-        Debug.Log(www.text);
+
+        //WWW www = new WWW(url, form);
+        using(UnityWebRequest www = UnityWebRequest.Post(url, form)) {
+            yield return www.SendWebRequest();
+
+            if(www.isNetworkError || www.isHttpError) {
+                Debug.Log(www.error);
+            } else {
+                Debug.Log("Form upload complete!");
+            }
+        }
+        //yield return www;
+        //Debug.Log(www.text);
         yield return null;
         Debug.Log("Sent");
     }
