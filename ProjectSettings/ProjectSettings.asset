@@ -168,7 +168,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.SandstormStudios.ExamenDeMedicina
   buildNumber: {}
-  AndroidBundleVersionCode: 4
+  AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 28
   AndroidPreferredInstallLocation: 1
@@ -269,7 +269,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
