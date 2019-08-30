@@ -1330,6 +1330,7 @@ MonoBehaviour:
   videoControllerGameObject: {fileID: 1307305604}
   NextInterface: {fileID: 974912906}
   videoMessage: {fileID: 1199205207}
+  parrafo: Cual es este video?
 --- !u!224 &1189162184 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
