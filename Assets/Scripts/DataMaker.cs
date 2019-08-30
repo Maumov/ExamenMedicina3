@@ -278,7 +278,14 @@ public class Numeros {
     public string Timer;
     public string Interval;
 }
-
+[System.Serializable]
+public class VideoPractica {
+    public string nombre;
+    public AnimationClip animacion;
+    public Sprite verde;
+    public Sprite verde1;
+    public List<Numeros> numbers;
+}
 
 //public static class JsonHelper {
 //    public static T[] FromJson<T>(string json) {

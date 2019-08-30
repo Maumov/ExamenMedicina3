@@ -10,7 +10,7 @@ public class DataLoader : MonoBehaviour {
     public List<Codigo> codigos;
 
     public List<Video> videos;
-
+    public List<VideoPractica> videosPractica;
     private void Start() {
         GetAllData();
     }
