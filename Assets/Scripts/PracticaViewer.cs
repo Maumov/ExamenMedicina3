@@ -27,10 +27,10 @@ public class PracticaViewer : ExamenViewer {
         CreateParrafo(parrafo);
         CreateVideoPractica(randomVideoType, randomVideo);
 
-        int randomAnswerA;
-        int randomAnswerB;
-        int randomAnswerC;
-        CreateMultiRespuesta();
+        //int randomAnswerA;
+        //int randomAnswerB;
+        //int randomAnswerC;
+        //CreateMultiRespuesta();
 
     }
     public void CreateVideoPractica(int RVT, int RV) {
