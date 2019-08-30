@@ -7,6 +7,7 @@ public class VideoControllerPractica : MonoBehaviour
 {
     public int testVideo = 0;
     public VideoPractica video;
+    public int videoSelected;
 
     public Image green, green1;
     public Text HRBPM;
@@ -36,7 +37,7 @@ public class VideoControllerPractica : MonoBehaviour
         }
     }
 
-     public void Numeros() {
+    public void Numeros() {
         HRBPM.text = video.numbers[currentNumbers].HRBPM;
 
         currentNumbers++;
@@ -46,28 +47,28 @@ public class VideoControllerPractica : MonoBehaviour
     }
 
 
-    [ContextMenu ("Test Video")]
-    public void TestVideo() {
-        VideoPractica v = FindObjectOfType<DataLoader>().videosPractica[testVideo];
-        SetVideo(v);
-    }
+    //[ContextMenu ("Test Video")]
+    //public void TestVideo() {
+    //    VideoPractica v = FindObjectOfType<DataLoader>().videosPractica[testVideo];
+    //    SetVideo(v);
+    //}
 
     public void FinishedSoundFrame()
     {
 
     }
 
-    public void SetVideo(VideoPractica v) {
-        video = v;
-        Debug.Log("Video: " + v);
+    public void SetVideo() {
+        
+        
         if(video != null) {
-            anim.Play(video.nombre, 0);
-            anim.Play(video.nombre, 1);
+            anim.Play("AnimationFiller", 0); // Visual
+            //anim.Play(video.nombre, 1); // Audio
         }
 
         currentNumbers = 0;
-        green.sprite = video.verde;
-        green1.sprite = video.verde1;
+        green.sprite = video.videos[videoSelected].lineas[0];
+        green1.sprite = video.videos[videoSelected].lineas[1];
 
         Numeros();
     }

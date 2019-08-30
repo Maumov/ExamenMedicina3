@@ -282,10 +282,14 @@ public class Numeros {
 public class VideoPractica {
     public string nombre;
     public AnimationClip animacion;
-    public Sprite verde;
-    public Sprite verde1;
+    public List<Lineas> videos;
     public List<Numeros> numbers;
 }
+[System.Serializable]
+public class Lineas {
+    public List<Sprite> lineas;
+}
+
 
 //public static class JsonHelper {
 //    public static T[] FromJson<T>(string json) {
