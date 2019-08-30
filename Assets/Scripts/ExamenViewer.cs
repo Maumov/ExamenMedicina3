@@ -33,7 +33,7 @@ public class ExamenViewer : MonoBehaviour {
         ShowExamen();
     }
 
-    public void ShowExamen() {
+    public virtual void ShowExamen() {
         examen = studentControl.examen;
         currentPregunta = 0;
         ShowQuestion();
@@ -88,7 +88,7 @@ public class ExamenViewer : MonoBehaviour {
     }
 
 
-    public void CreatePreguntaPack(string id) {
+    public virtual void CreatePreguntaPack(string id) {
         Question q = dataLoader.GetQuestion(id);
         CreateParrafo(q.parrafo);
         CreateVideoButton(q.video);
