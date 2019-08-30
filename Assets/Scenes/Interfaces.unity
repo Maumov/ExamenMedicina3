@@ -1272,6 +1272,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 38.360657
       objectReference: {fileID: 0}
+    - target: {fileID: 7398128565230243211, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}
@@ -2370,6 +2375,11 @@ PrefabInstance:
     - target: {fileID: 3305433055399868977, guid: a2153b8d05504824ba60d98eedfc0746,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061937309061303277, guid: a2153b8d05504824ba60d98eedfc0746,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4743,6 +4753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 38.360657
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128565230243211, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}

@@ -270,8 +270,12 @@ public class DataLoader : MonoBehaviour {
         p.respuestas = new List<string>();
         d[2] = d[2].Substring(0, d[2].Length - 1);
         string[] d3 = d[2].Split('}');
-        p.respuestas.AddRange(d3[0].Split(';'));
-
+        string[] respuestasTemp = d3[0].Split(';');
+        Debug.Log(respuestasTemp.Length);
+        Debug.Log(respuestasTemp[0]);
+        if(respuestasTemp.Length >= 1 && respuestasTemp[0] != "") {
+            p.respuestas.AddRange(respuestasTemp);
+        }
         p.respuestasEstudiante = new List<string>();
         for(int i = 0; i < p.preguntas.Count; i++ ) {
             p.respuestasEstudiante.Add("");
