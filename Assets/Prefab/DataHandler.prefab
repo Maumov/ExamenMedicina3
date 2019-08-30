@@ -955,6 +955,264 @@ MonoBehaviour:
       NIPB2: (0)
       Timer: 147
       Interval: Interval 5 min
+  videosPractica:
+  - nombre: Aleteo Auricular
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: ba0c6a52c484c0b4686d0fe60eb82cc3, type: 3}
+      - {fileID: 21300000, guid: ba0c6a52c484c0b4686d0fe60eb82cc3, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853, type: 3}
+      - {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 72384ae5536899a4b8fe170369364a0e, type: 3}
+      - {fileID: 21300000, guid: 72384ae5536899a4b8fe170369364a0e, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: d13e5b705a473ee4da457c267608a4ce, type: 3}
+      - {fileID: 21300000, guid: d13e5b705a473ee4da457c267608a4ce, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 11d1b332a98ecc542942adc3fc17faa0, type: 3}
+      - {fileID: 21300000, guid: 11d1b332a98ecc542942adc3fc17faa0, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 1f2f7178e2864e249ab6500929f52f66, type: 3}
+      - {fileID: 21300000, guid: 1f2f7178e2864e249ab6500929f52f66, type: 3}
+    numbers:
+    - HRBPM: 
+      ABP1: 
+      ABP2: 
+      SpO2: 
+      CO2: 
+      RespRate: 
+      TempC: 
+      NIPB1: 
+      NIPB2: 
+      Timer: 
+      Interval: 
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Asistolia
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 6dcfbb6ef6e45154a8e3ae54430423bd, type: 3}
+      - {fileID: 21300000, guid: 6dcfbb6ef6e45154a8e3ae54430423bd, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: d075a4cb3a89e3d42b699514eb9bd01c, type: 3}
+      - {fileID: 21300000, guid: d075a4cb3a89e3d42b699514eb9bd01c, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 6ed4461f47a3e674798f1c45057e0e78, type: 3}
+      - {fileID: 21300000, guid: 6ed4461f47a3e674798f1c45057e0e78, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 3988abbaf8d60e04fac93a4f50f7cbac, type: 3}
+      - {fileID: 21300000, guid: 3988abbaf8d60e04fac93a4f50f7cbac, type: 3}
+    numbers: []
+  - nombre: BloqueAV1G
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: c7ea545b0926a074f84510a345871b1e, type: 3}
+      - {fileID: 21300000, guid: c7ea545b0926a074f84510a345871b1e, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 59db57b44c44da14aa6649ff22cee837, type: 3}
+      - {fileID: 21300000, guid: 59db57b44c44da14aa6649ff22cee837, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: ee15c544dd646bf48820cd40ee47e4ca, type: 3}
+      - {fileID: 21300000, guid: ee15c544dd646bf48820cd40ee47e4ca, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 44ae173334f05af40825153bd346332e, type: 3}
+      - {fileID: 21300000, guid: 44ae173334f05af40825153bd346332e, type: 3}
+    numbers: []
+  - nombre: BloqueAV2G1
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: faf87954467d91047bf88dfee6693cd0, type: 3}
+      - {fileID: 21300000, guid: 249e1388a2a824e4ebc93b62c7458211, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: c577fdb2d7fc2014082d9e6a32c24a38, type: 3}
+      - {fileID: 21300000, guid: bc1917323bd8eb349a3b36830d40d7ae, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: f39c97739215c70488578b11bec53b56, type: 3}
+      - {fileID: 21300000, guid: f39c97739215c70488578b11bec53b56, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 801f0ba555ed5384c9443550510ba5fa, type: 3}
+      - {fileID: 21300000, guid: 801f0ba555ed5384c9443550510ba5fa, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: c4a976c15afe851448b2908558b390e8, type: 3}
+      - {fileID: 21300000, guid: c4a976c15afe851448b2908558b390e8, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: db4e4456f0690114190587b61a82603a, type: 3}
+      - {fileID: 21300000, guid: db4e4456f0690114190587b61a82603a, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
+  - nombre: Arritimia Sinusal
+    animacion: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+      - {fileID: 21300000, guid: 7bfb5d34d973da945bd77d6e01a1be0a, type: 3}
+    - lineas:
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+      - {fileID: 21300000, guid: 750c2da79d73dd24498a798ca714ac45, type: 3}
+    numbers: []
 --- !u!114 &9005044516247995944
 MonoBehaviour:
   m_ObjectHideFlags: 0
