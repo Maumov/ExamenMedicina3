@@ -1032,6 +1032,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1076571624}
     m_Modifications:
+    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: studentControl
+      value: 
+      objectReference: {fileID: 3387130774839438700}
+    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: dataLoader
+      value: 
+      objectReference: {fileID: 8678948333959580814}
+    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: videoController
+      value: 
+      objectReference: {fileID: 48373512}
+    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: videoControllerGameObject
+      value: 
+      objectReference: {fileID: 1307305604}
+    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: NextInterface
+      value: 
+      objectReference: {fileID: 974912906}
+    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: videoMessage
+      value: 
+      objectReference: {fileID: 1199205207}
     - target: {fileID: 7398128565230243214, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_Name
@@ -1040,7 +1070,7 @@ PrefabInstance:
     - target: {fileID: 7398128565230243214, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565230243210, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
@@ -1150,42 +1180,42 @@ PrefabInstance:
     - target: {fileID: 7398128565594325489, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565594325489, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565594325489, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -867.78015
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000061035156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.00012207031
+      value: 0.000044500634
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566455579883, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566455579883, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566455579883, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
@@ -1195,22 +1225,22 @@ PrefabInstance:
     - target: {fileID: 7398128564746191086, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128564746191086, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565380377447, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565380377447, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565380377447, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
@@ -1232,33 +1262,27 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: studentControl
       value: 
       objectReference: {fileID: 3387130774839438700}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: dataLoader
       value: 
       objectReference: {fileID: 8678948333959580814}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: videoController
       value: 
       objectReference: {fileID: 48373512}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: videoControllerGameObject
       value: 
       objectReference: {fileID: 1307305604}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: NextInterface
       value: 
       objectReference: {fileID: 974912906}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: videoMessage
       value: 
       objectReference: {fileID: 1199205207}
@@ -1270,15 +1294,24 @@ PrefabInstance:
     - target: {fileID: 9072649286377625996, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 39.56044
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398128565230243211, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}
+    - target: {fileID: 7398128564733141520, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128564733141520, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}
 --- !u!224 &1189162181 stripped
 RectTransform:
@@ -1289,50 +1322,6 @@ RectTransform:
 --- !u!1 &1189162182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7398128565230243214, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1189162180}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1189162183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189162182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4aa991d9f7f2d144ca6511d95ad2fbaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  studentControl: {fileID: 3387130774839438700}
-  examen:
-    id: 
-    nombre: 
-    profesor:
-      id: 
-      nombre: 
-      apellido: 
-    preguntas: []
-  origin: {fileID: 1189162184}
-  Parrafo: {fileID: 2117836128224589629, guid: 647e19be05c3692448b6fb55dc9fbb0a, type: 3}
-  Pregunta: {fileID: 3059875915488624539, guid: 978186efdd1d4044297a73d82d7e570f,
-    type: 3}
-  Video: {fileID: 3622593367428076751, guid: 4968d2d631be78147bf43ffc930b829a, type: 3}
-  Respuesta: {fileID: 1675890987944261827, guid: a52213ef16be06e479d971f7ed319ce7,
-    type: 3}
-  multiRespuesta: {fileID: 1473807109286644652, guid: 53c5e3530af39b14abd5f09e0e402a85,
-    type: 3}
-  dataLoader: {fileID: 8678948333959580814}
-  currentPregunta: 0
-  inputs: []
-  videoController: {fileID: 48373512}
-  videoControllerGameObject: {fileID: 1307305604}
-  NextInterface: {fileID: 974912906}
-  videoMessage: {fileID: 1199205207}
-  parrafo: Cual es este video?
---- !u!224 &1189162184 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
     type: 3}
   m_PrefabInstance: {fileID: 1189162180}
   m_PrefabAsset: {fileID: 0}
@@ -4159,6 +4148,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
         type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[6].lineas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[7].lineas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[8].lineas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
       propertyPath: videos.Array.data[8].numbers.Array.data[21].HRBPM
       value: 158
       objectReference: {fileID: 0}
@@ -4322,6 +4326,42 @@ PrefabInstance:
       propertyPath: videos.Array.data[8].numbers.Array.data[23].Interval
       value: Interval 5 min
       objectReference: {fileID: 0}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[6].lineas.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853,
+        type: 3}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[6].lineas.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853,
+        type: 3}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[7].lineas.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853,
+        type: 3}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[7].lineas.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853,
+        type: 3}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[8].lineas.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853,
+        type: 3}
+    - target: {fileID: 8678948333959580814, guid: 794bd31cd49c22e4d93abc9a6a185875,
+        type: 3}
+      propertyPath: videosPractica.Array.data[0].videos.Array.data[8].lineas.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c14ae2c8757264449a1a631a9b50853,
+        type: 3}
     - target: {fileID: 5484664173556860268, guid: 794bd31cd49c22e4d93abc9a6a185875,
         type: 3}
       propertyPath: curva.m_Curve.Array.size
@@ -4808,33 +4848,27 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: studentControl
       value: 
       objectReference: {fileID: 3387130774839438700}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: dataLoader
       value: 
       objectReference: {fileID: 8678948333959580814}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: videoController
       value: 
       objectReference: {fileID: 48373512}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: videoControllerGameObject
       value: 
       objectReference: {fileID: 1307305604}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: NextInterface
       value: 
       objectReference: {fileID: 974912906}
-    - target: {fileID: 906687235241909374, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
+    - target: {fileID: 0}
       propertyPath: videoMessage
       value: 
       objectReference: {fileID: 1199205207}
