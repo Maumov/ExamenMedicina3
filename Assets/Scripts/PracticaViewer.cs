@@ -27,12 +27,18 @@ public class PracticaViewer : ExamenViewer {
         CreateParrafo(parrafo);
         CreateVideoPractica(randomVideoType, randomVideo);
 
+        int randomAnswerA;
+        int randomAnswerB;
+        int randomAnswerC;
+        CreateMultiRespuesta();
+
     }
     public void CreateVideoPractica(int RVT, int RV) {
         GameObject go = Instantiate(Video, origin);
         VideoControllerPractica VCP = go.GetComponentInChildren<VideoControllerPractica>();
         VCP.video = dataLoader.videosPractica[RVT];
         VCP.videoSelected = RV;
+
     }
     public void ShowAnswer() {
 

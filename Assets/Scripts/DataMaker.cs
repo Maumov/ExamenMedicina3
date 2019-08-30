@@ -251,7 +251,6 @@ public class Codigo {
 [System.Serializable]
 public class Video {
     public string nombre;
-    public AnimationClip animacion;
     public Sprite verde;
     public Sprite rojo;
     public Sprite amarillo;
@@ -281,7 +280,6 @@ public class Numeros {
 [System.Serializable]
 public class VideoPractica {
     public string nombre;
-    public AnimationClip animacion;
     public List<Lineas> videos;
     public List<Numeros> numbers;
 }
