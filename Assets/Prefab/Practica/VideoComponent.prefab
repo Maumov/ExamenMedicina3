@@ -174,20 +174,15 @@ MonoBehaviour:
   testVideo: 0
   video:
     nombre: 
-    animacion: {fileID: 0}
-    videos:
-    - lineas:
-      - {fileID: 0}
-      - {fileID: 0}
-    - lineas: []
+    videos: []
     numbers: []
   videoSelected: 0
-  green: {fileID: 0}
-  green1: {fileID: 0}
-  HRBPM: {fileID: 0}
-  audioSourceTick: {fileID: 0}
-  audioSourceContinue: {fileID: 0}
-  anim: {fileID: 0}
+  green: {fileID: 8934722886397927690}
+  green1: {fileID: 1985842083033571534}
+  HRBPM: {fileID: 3330721166620559424}
+  audioSourceTick: {fileID: 4191031168583215584}
+  audioSourceContinue: {fileID: 4009792633942463539}
+  anim: {fileID: 1478830514373286634}
 --- !u!114 &1789300308968664663
 MonoBehaviour:
   m_ObjectHideFlags: 0
