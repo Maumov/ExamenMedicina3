@@ -281,11 +281,12 @@ public class Numeros {
 public class VideoPractica {
     public string nombre;
     public List<Lineas> videos;
-    public List<Numeros> numbers;
+   
 }
 [System.Serializable]
 public class Lineas {
     public List<Sprite> lineas;
+    public List<Numeros> numbers;
 }
 
 

@@ -55,6 +55,7 @@ public class PracticaViewer : ExamenViewer {
         VideoControllerPractica VCP = go.GetComponentInChildren<VideoControllerPractica>();
         VCP.video = dataLoader.videosPractica[RVT];
         VCP.videoSelected = RV;
+        VCP.SetVideo();
     }
 
     public void ShowAnswer() {

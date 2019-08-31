@@ -38,10 +38,9 @@ public class VideoControllerPractica : MonoBehaviour
     }
 
     public void Numeros() {
-        HRBPM.text = video.numbers[currentNumbers].HRBPM;
-
+        HRBPM.text = video.videos[videoSelected].numbers[currentNumbers].HRBPM;
         currentNumbers++;
-        if(currentNumbers >= video.numbers.Count) {
+        if(currentNumbers >= video.videos[videoSelected].numbers.Count) {
             currentNumbers = 0;
         }
     }
