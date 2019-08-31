@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 1946471797209081327}
   - component: {fileID: 3540384736953951460}
   - component: {fileID: 1681781030339470391}
-  - component: {fileID: 8757712662817997653}
+  - component: {fileID: 4580935036747005715}
   - component: {fileID: 1789300308968664663}
   - component: {fileID: 1478830514373286634}
   - component: {fileID: 4191031168583215584}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8757712662817997653
+--- !u!114 &4580935036747005715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,59 +168,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 2368484021385639854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c04b41dcbfa21e4195ae98aeb842fc1, type: 3}
+  m_Script: {fileID: 11500000, guid: 8439580f9286f634b907c5b7c1cbb8bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   testVideo: 0
   video:
-    nombre: Test
+    nombre: 
     animacion: {fileID: 0}
-    verde: {fileID: 21300000, guid: b3e03dac002c3e3438b5016c61a9c654, type: 3}
-    rojo: {fileID: 21300000, guid: c2a5d8f7487550b4ab891b4ad32efb2b, type: 3}
-    amarillo: {fileID: 21300000, guid: 495744a01c167db4a9fa7f49de098043, type: 3}
-    azul: {fileID: 21300000, guid: 3d46d4340f4d145488e142851167f5a1, type: 3}
-    verde1: {fileID: 21300000, guid: f7e37261486f1b04d88fb9612015cca8, type: 3}
-    rojo1: {fileID: 21300000, guid: 61f377559b9682541b53a2a43f0f2c7f, type: 3}
-    amarillo1: {fileID: 21300000, guid: 98a2a9661f9c24f4a8d1ac287325f2ce, type: 3}
-    azul1: {fileID: 21300000, guid: cf8363d333f6c704cbc418d7e0eb2689, type: 3}
-    rrpm: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
-    rrpm1: {fileID: 21300000, guid: 457ca7b23180c1f4493019072aed1457, type: 3}
-    numbers:
-    - HRBPM: '---'
-      ABP1: 0/0
-      ABP2: (0)
-      SpO2: '---'
-      CO2: '---'
-      RespRate: '---'
-      TempC: 37.2
-      NIPB1: 0/0
-      NIPB2: (0)
-      Timer: 87
-      Interval: Interval 5 min
-  green: {fileID: 8934722886397927690}
-  green1: {fileID: 1985842083033571534}
-  red: {fileID: 0}
-  red1: {fileID: 0}
-  yellow: {fileID: 0}
-  yellow1: {fileID: 0}
-  white: {fileID: 0}
-  white1: {fileID: 0}
-  rrpm: {fileID: 0}
-  rrpm1: {fileID: 0}
+    videos:
+    - lineas:
+      - {fileID: 0}
+      - {fileID: 0}
+    - lineas: []
+    numbers: []
+  videoSelected: 0
+  green: {fileID: 0}
+  green1: {fileID: 0}
   HRBPM: {fileID: 0}
-  ABP1: {fileID: 0}
-  ABP2: {fileID: 0}
-  SpO2: {fileID: 0}
-  CO2: {fileID: 0}
-  RespRate: {fileID: 0}
-  TempC: {fileID: 0}
-  NIPB1: {fileID: 0}
-  NIPB2: {fileID: 0}
-  Timer: {fileID: 0}
-  Interval: {fileID: 0}
-  audioSourceTick: {fileID: 4191031168583215584}
-  audioSourceContinue: {fileID: 4009792633942463539}
-  anim: {fileID: 1478830514373286634}
+  audioSourceTick: {fileID: 0}
+  audioSourceContinue: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1789300308968664663
 MonoBehaviour:
   m_ObjectHideFlags: 0

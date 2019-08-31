@@ -120,7 +120,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 906687235241909374}
+      - m_Target: {fileID: 0}
         m_MethodName: NextQuestion
         m_Mode: 1
         m_Arguments:
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 7398128565230243211}
   - component: {fileID: 7398128565230243212}
   - component: {fileID: 7398128565230243213}
-  - component: {fileID: 906687235241909374}
+  - component: {fileID: 1057455692919261937}
   m_Layer: 5
   m_Name: CuestionarioCanvas
   m_TagString: Untagged
@@ -748,7 +748,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &906687235241909374
+--- !u!114 &1057455692919261937
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7398128565230243214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e2179cedeabe764c97e76e8b750c633, type: 3}
+  m_Script: {fileID: 11500000, guid: 4aa991d9f7f2d144ca6511d95ad2fbaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   studentControl: {fileID: 0}
@@ -779,11 +779,13 @@ MonoBehaviour:
   multiRespuesta: {fileID: 1473807109286644652, guid: 53c5e3530af39b14abd5f09e0e402a85,
     type: 3}
   dataLoader: {fileID: 0}
+  currentPregunta: 0
   inputs: []
   videoController: {fileID: 0}
   videoControllerGameObject: {fileID: 0}
   NextInterface: {fileID: 0}
   videoMessage: {fileID: 0}
+  parrafo: Cual es este video?
 --- !u!1 &7398128565380377240
 GameObject:
   m_ObjectHideFlags: 0
