@@ -207,7 +207,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -227,7 +227,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -237,7 +237,7 @@ PrefabInstance:
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
@@ -1171,36 +1171,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: studentControl
-      value: 
-      objectReference: {fileID: 3387130774839438700}
-    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: dataLoader
-      value: 
-      objectReference: {fileID: 8678948333959580814}
-    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: videoController
-      value: 
-      objectReference: {fileID: 48373512}
-    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: videoControllerGameObject
-      value: 
-      objectReference: {fileID: 1307305604}
-    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: NextInterface
-      value: 
-      objectReference: {fileID: 974912906}
-    - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: videoMessage
-      value: 
-      objectReference: {fileID: 1199205207}
     - target: {fileID: 7398128565594325489, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -1229,11 +1199,7 @@ PrefabInstance:
     - target: {fileID: 7398128566090661840, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-<<<<<<< HEAD
       value: 0.000061035156
-=======
-      value: -0.0007324219
->>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 7398128566455579883, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
@@ -1310,6 +1276,16 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7398128564733141522, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398128564746191087, guid: 7b3c0cffa25969d4785322aa3dda56a7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7398128564733141520, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: m_Value
@@ -1320,7 +1296,6 @@ PrefabInstance:
       propertyPath: m_Size
       value: 1
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 1057455692919261937, guid: 7b3c0cffa25969d4785322aa3dda56a7,
         type: 3}
       propertyPath: studentControl
@@ -1351,18 +1326,6 @@ PrefabInstance:
       propertyPath: videoMessage
       value: 
       objectReference: {fileID: 1199205207}
-=======
-    - target: {fileID: 7398128564733141522, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7398128564746191087, guid: 7b3c0cffa25969d4785322aa3dda56a7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
->>>>>>> master
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b3c0cffa25969d4785322aa3dda56a7, type: 3}
 --- !u!224 &1189162181 stripped
