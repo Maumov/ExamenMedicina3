@@ -13,6 +13,10 @@ public class StudentControl : MonoBehaviour
     public delegate void StudentDelegate();
     public event StudentDelegate OnLoginSuccesful, OnInvalidCode, OnInvalidTest, OnEstudianteNoEncontrado, OnEnteredCode, OnCodigoNotReady;
 
+    public bool isLoggedIn() {
+        return estudiante != null;
+    }
+
     public void Login(string codigoEstudiante) {
 
         Estudiante e = dataLoader.GetEstudiante(codigoEstudiante);
@@ -74,7 +78,9 @@ public class StudentControl : MonoBehaviour
 
     void LlenarPreguntas() {
         preguntas = new List<Question>();
-        preguntas.AddRange(dataLoader.preguntas);
+        for(int i = 0; i < examen.preguntas.Count; i++) {
+            preguntas.Add(dataLoader.GetQuestion(examen.preguntas[i]));
+        }
     }
 
 

@@ -54,7 +54,14 @@ public class DataLoader : MonoBehaviour {
     public Examen GetExamen(string cod) {
         foreach(Examen e in examenes) {
             if(e.id.Equals(cod)) {
-                return e;
+                Examen a = e;
+                a.preguntas.Shuffle();
+                List<string> preguntasTemp = new List<string>();
+                for(int i = 0; i < 5; i++) {
+                    preguntasTemp.Add(a.preguntas[i]);
+                }
+                a.preguntas = preguntasTemp;
+                return a;
             }
         }
         return null;

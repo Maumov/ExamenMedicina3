@@ -31,22 +31,26 @@ public class PracticaViewer : ExamenViewer {
         CreateParrafo(parrafo);
         CreateVideoPractica(randomVideoType, randomVideo);
 
-        List<string> answers = new List<string>();
-        for(int i = 0; i < dataLoader.videosPractica.Count; i++) {
-            answers.Add(dataLoader.videosPractica[i].nombre);
-        }
-        answers.Shuffle();
+        //List<string> answers = new List<string>();
+        //for(int i = 0; i < dataLoader.videosPractica.Count; i++) {
+        //    answers.Add(dataLoader.videosPractica[i].nombre);
+        //}
+        //answers.Shuffle();
         
         List<string> respuestas = new List<string>();
         respuestas.Add(dataLoader.videosPractica[randomVideoType].nombre);
         rightAnswer = dataLoader.videosPractica[randomVideoType].nombre;
+        dataLoader.videosPractica[randomVideoType].wrongAnswersPool.Shuffle();
+        int answerPoolSize = dataLoader.videosPractica[randomVideoType].wrongAnswersPool.Count;
         while(respuestas.Count < 4) {
-            for(int i = 0; i < answers.Count; i++) {
-                if(!respuestas.Contains(answers[i])) {
-                    respuestas.Add(answers[i]);
+            for(int i = 0; i < answerPoolSize; i++) {
+                if(!respuestas.Contains(dataLoader.videosPractica[randomVideoType].wrongAnswersPool[i])) {
+                    respuestas.Add(dataLoader.videosPractica[randomVideoType].wrongAnswersPool[i]);
+                    break;
                 }
             }
         }
+        Debug.Log(respuestas.Count);
         respuestas.Shuffle();
         CreateMultiRespuesta(respuestas.ToArray());
     }
@@ -64,7 +68,10 @@ public class PracticaViewer : ExamenViewer {
             if(toggles[i].GetComponentInChildren<Text>().text == rightAnswer) {
                 toggles[i].GetComponent<Image>().color = green;
             } else {
-                toggles[i].GetComponent<Image>().color = red;
+                if(toggles[i].isOn) {
+                    toggles[i].GetComponent<Image>().color = red;
+                }
+                
             }
         }
     }

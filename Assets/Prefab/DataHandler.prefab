@@ -1031,6 +1031,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Taquicardia sinusal
+    - Taquicardia supraventricular
+    - Fibrilacion ventricular
+    - Fibrilacion auricular
   - nombre: Arritimia Sinusal
     videos:
     - lineas:
@@ -1063,6 +1068,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 1er grado
+    - Fibrilacion auricular
+    - Ritmo sinusal
+    - Contracciones auriculares prematuras
   - nombre: Asistolia
     videos:
     - lineas:
@@ -1125,6 +1135,10 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Ritmo idio ventricular
+    - Bradicardia sinusal
+    - Fibrilacion auriocular
   - nombre: Bloqueo AV 1 Grado
     videos:
     - lineas:
@@ -1187,6 +1201,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 2do grado tipo I
+    - Bradicardia sinusal
+    - Arritmia sinusal
+    - Bloqueo AV 2do grado tipo II
   - nombre: Bloqueo AV 2do Grado Tipo I
     videos:
     - lineas:
@@ -1279,6 +1298,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 1er grado
+    - Bradicardia sinusal
+    - Arritmia sinusal
+    - Bloqueo AV 2do grado tipo II
   - nombre: Bloqueo AV 2do Grado Tipo II
     videos:
     - lineas:
@@ -1341,6 +1365,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 1er grado
+    - Bradicardia sinusal
+    - Arritmia sinusal
+    - Bloqueo AV 2do grado tipo I
   - nombre: Bloqueo AV 3er Grado
     videos:
     - lineas:
@@ -1403,6 +1432,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 2do grado tipo II
+    - Bloqueo AV 2do grado tipo I
+    - Contracciones ventriculares prematuras
+    - Bradicardia sinusal
   - nombre: Bradicardia Sinusal
     videos:
     - lineas:
@@ -1525,6 +1559,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 1er grado
+    - Bloqueo AV 2do grado tipo I
+    - Arritmia sinusal
+    - Ritmo sinusal
   - nombre: Contracciones Auricular Prematura
     videos:
     - lineas:
@@ -1617,6 +1656,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Ritmo sinusal
+    - Fibrilacion auricular
+    - Aleteo auricular
+    - Taquicardia auricular
   - nombre: Contracciones Junctional Prematura
     videos:
     - lineas:
@@ -1709,6 +1753,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Ritmo sinusal
+    - Fibrilacion auricular
+    - Bradicardia sinusal
+    - Asistolia
   - nombre: Contracciones Ventriculares Prematura
     videos:
     - lineas:
@@ -1801,6 +1850,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Bloqueo AV 3er grado
+    - Taquicardia ventricular
+    - Contracciones auriculares prematuras
+    - Fibrilacion ventricular
   - nombre: Fibrilacion Auricular
     videos:
     - lineas:
@@ -1983,6 +2037,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Taquicardia ventricular polimorfica
+    - Aleteo auricular
+    - Arritmia sinusal
+    - Taquicardia auricular
   - nombre: Fibrilacion Ventricular
     videos:
     - lineas:
@@ -2075,6 +2134,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Taquicardia ventricular polimorfica
+    - Taquicardia sinusal
+    - Fibrilacion auricular
+    - Torsion de punta
   - nombre: Idioventricular
     videos:
     - lineas:
@@ -2167,7 +2231,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
-  - nombre: Junctional
+    wrongAnswersPool:
+    - Ritmo sinusal
+    - Ritmo juncional
+    - Taquicardia ventricular
+  - nombre: Ritmo juncional
     videos:
     - lineas:
       - {fileID: 21300000, guid: aea66d1273f9756499351417c3f006a5, type: 3}
@@ -2259,68 +2327,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
-  - nombre: QRS Ancho de Origen Desconocido
-    videos:
-    - lineas:
-      - {fileID: 21300000, guid: b678244476563a64491e118a30202dd7, type: 3}
-      - {fileID: 21300000, guid: b678244476563a64491e118a30202dd7, type: 3}
-      numbers:
-      - HRBPM: 145
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 9772c19e2672c1347ac9ce174a532f2e, type: 3}
-      - {fileID: 21300000, guid: 9772c19e2672c1347ac9ce174a532f2e, type: 3}
-      numbers:
-      - HRBPM: 144
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 2639df3748c0d40418297a78da933c3a, type: 3}
-      - {fileID: 21300000, guid: 2639df3748c0d40418297a78da933c3a, type: 3}
-      numbers:
-      - HRBPM: 145
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: fe8c055f8d71d59449526208246687d0, type: 3}
-      - {fileID: 21300000, guid: fe8c055f8d71d59449526208246687d0, type: 3}
-      numbers:
-      - HRBPM: 144
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
+    wrongAnswersPool:
+    - Ritmo sinusal
+    - Bradicardia sinusal
+    - Idio ventricular
+    - Fibrilacion auricular
   - nombre: Ritmo Sinusal
     videos:
     - lineas:
@@ -2533,218 +2544,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
-  - nombre: Taquicardia Auricular
-    videos:
-    - lineas:
-      - {fileID: 21300000, guid: 5e80db27ba6fce4469ecafbd8311e5d3, type: 3}
-      - {fileID: 21300000, guid: 5e80db27ba6fce4469ecafbd8311e5d3, type: 3}
-      numbers:
-      - HRBPM: 210
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 2cd44d732ee918b47a948ac1fde4c64a, type: 3}
-      - {fileID: 21300000, guid: 2cd44d732ee918b47a948ac1fde4c64a, type: 3}
-      numbers:
-      - HRBPM: 192
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 082efdbabd3ba97459817a018cce09be, type: 3}
-      - {fileID: 21300000, guid: 082efdbabd3ba97459817a018cce09be, type: 3}
-      numbers:
-      - HRBPM: 120
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 5b8ea6c90e447064a8efee75e8a6f777, type: 3}
-      - {fileID: 21300000, guid: 5b8ea6c90e447064a8efee75e8a6f777, type: 3}
-      numbers:
-      - HRBPM: 240
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 0ca9a39b3e8ba5142af31a37e116b32a, type: 3}
-      - {fileID: 21300000, guid: 0ca9a39b3e8ba5142af31a37e116b32a, type: 3}
-      numbers:
-      - HRBPM: 210
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: d0ec51027de37d842a48fafcbda98104, type: 3}
-      - {fileID: 21300000, guid: d0ec51027de37d842a48fafcbda98104, type: 3}
-      numbers:
-      - HRBPM: 150
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 6701fbb91b7c0a74eb2dd2ce35b42c2b, type: 3}
-      - {fileID: 21300000, guid: 6701fbb91b7c0a74eb2dd2ce35b42c2b, type: 3}
-      numbers:
-      - HRBPM: 100
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 1d7a020cf2fb55a4b815830820b6813f, type: 3}
-      - {fileID: 21300000, guid: 1d7a020cf2fb55a4b815830820b6813f, type: 3}
-      numbers:
-      - HRBPM: 210
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 91931d761a8dafd488a99acb14e1ec40, type: 3}
-      - {fileID: 21300000, guid: 91931d761a8dafd488a99acb14e1ec40, type: 3}
-      numbers:
-      - HRBPM: 192
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 9b908d8277ea58045a2eb72a78a8ea58, type: 3}
-      - {fileID: 21300000, guid: 9b908d8277ea58045a2eb72a78a8ea58, type: 3}
-      numbers:
-      - HRBPM: 120
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: a587a6762347b5c45a06431f51e949a3, type: 3}
-      - {fileID: 21300000, guid: a587a6762347b5c45a06431f51e949a3, type: 3}
-      numbers:
-      - HRBPM: 240
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 9976003ddc842d54da9dc50e1d00d1d2, type: 3}
-      - {fileID: 21300000, guid: 9976003ddc842d54da9dc50e1d00d1d2, type: 3}
-      numbers:
-      - HRBPM: 210
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: b6d8133b73c72334ba583bb39e1dfdbf, type: 3}
-      - {fileID: 21300000, guid: b6d8133b73c72334ba583bb39e1dfdbf, type: 3}
-      numbers:
-      - HRBPM: 150
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 31f20b346d12c5746b88df8a2acf39d0, type: 3}
-      - {fileID: 21300000, guid: 31f20b346d12c5746b88df8a2acf39d0, type: 3}
-      numbers:
-      - HRBPM: 100
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
+    wrongAnswersPool:
+    - Bradicardia sinusal
+    - Bloqueo AV de primer grado
+    - Arritmia sinusal
+    - Ritmo juncional
   - nombre: Taquicardia Sinusal
     videos:
     - lineas:
@@ -2793,21 +2597,6 @@ MonoBehaviour:
         Timer: 
         Interval: 
     - lineas:
-      - {fileID: 21300000, guid: 92cecdf2292421445b7e72a88333f321, type: 3}
-      - {fileID: 21300000, guid: 92cecdf2292421445b7e72a88333f321, type: 3}
-      numbers:
-      - HRBPM: 158
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-    - lineas:
       - {fileID: 21300000, guid: e600861788e8a3540a49c7ab9295f2a6, type: 3}
       - {fileID: 21300000, guid: e600861788e8a3540a49c7ab9295f2a6, type: 3}
       numbers:
@@ -2852,22 +2641,12 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
-    - lineas:
-      - {fileID: 21300000, guid: 9981a31d447a9d441b7dd27e459f8303, type: 3}
-      - {fileID: 21300000, guid: 9981a31d447a9d441b7dd27e459f8303, type: 3}
-      numbers:
-      - HRBPM: 158
-        ABP1: 
-        ABP2: 
-        SpO2: 
-        CO2: 
-        RespRate: 
-        TempC: 
-        NIPB1: 
-        NIPB2: 
-        Timer: 
-        Interval: 
-  - nombre: Taquicardia Ventricular
+    wrongAnswersPool:
+    - Taquicardia supraventricular
+    - Taquicardia auricular
+    - Taquicardia ventricular
+    - Ritmo sinusal
+  - nombre: Taquicardia ventricular monomorfica
     videos:
     - lineas:
       - {fileID: 21300000, guid: 92c4bfafc46e3214fb6e08e4b0a12f5f, type: 3}
@@ -2989,6 +2768,11 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Taquicardia sinusal
+    - Torsion de punta
+    - Fibrilacion auricular
+    - Fibrilacion ventricular
   - nombre: Torsion de Punta
     videos:
     - lineas:
@@ -3021,6 +2805,85 @@ MonoBehaviour:
         NIPB2: 
         Timer: 
         Interval: 
+    wrongAnswersPool:
+    - Taquicardia ventricular monomorfica
+    - Fibrilacion ventricular
+    - Taquicardia sinusal
+    - Arritmia sinusal
+  - nombre: Taquicardia supraventricular
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 92cecdf2292421445b7e72a88333f321, type: 3}
+      - {fileID: 21300000, guid: 92cecdf2292421445b7e72a88333f321, type: 3}
+      numbers:
+      - HRBPM: 158
+        ABP1: 
+        ABP2: 
+        SpO2: 
+        CO2: 
+        RespRate: 
+        TempC: 
+        NIPB1: 
+        NIPB2: 
+        Timer: 
+        Interval: 
+    - lineas:
+      - {fileID: 21300000, guid: 9981a31d447a9d441b7dd27e459f8303, type: 3}
+      - {fileID: 21300000, guid: 9981a31d447a9d441b7dd27e459f8303, type: 3}
+      numbers:
+      - HRBPM: 158
+        ABP1: 
+        ABP2: 
+        SpO2: 
+        CO2: 
+        RespRate: 
+        TempC: 
+        NIPB1: 
+        NIPB2: 
+        Timer: 
+        Interval: 
+    wrongAnswersPool:
+    - Taquicardia sinusal
+    - Taquicardia auricular
+    - Taquicardia ventricular
+    - Ritmo sinusal
+  - nombre: Taquicardia supraventricular
+    videos:
+    - lineas:
+      - {fileID: 21300000, guid: 92cecdf2292421445b7e72a88333f321, type: 3}
+      - {fileID: 21300000, guid: 92cecdf2292421445b7e72a88333f321, type: 3}
+      numbers:
+      - HRBPM: 158
+        ABP1: 
+        ABP2: 
+        SpO2: 
+        CO2: 
+        RespRate: 
+        TempC: 
+        NIPB1: 
+        NIPB2: 
+        Timer: 
+        Interval: 
+    - lineas:
+      - {fileID: 21300000, guid: 9981a31d447a9d441b7dd27e459f8303, type: 3}
+      - {fileID: 21300000, guid: 9981a31d447a9d441b7dd27e459f8303, type: 3}
+      numbers:
+      - HRBPM: 158
+        ABP1: 
+        ABP2: 
+        SpO2: 
+        CO2: 
+        RespRate: 
+        TempC: 
+        NIPB1: 
+        NIPB2: 
+        Timer: 
+        Interval: 
+    wrongAnswersPool:
+    - Taquicardia sinusal
+    - Taquicardia auricular
+    - Taquicardia ventricular
+    - Ritmo sinusal
 --- !u!114 &9005044516247995944
 MonoBehaviour:
   m_ObjectHideFlags: 0

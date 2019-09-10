@@ -281,7 +281,7 @@ public class Numeros {
 public class VideoPractica {
     public string nombre;
     public List<Lineas> videos;
-   
+    public List<string> wrongAnswersPool;
 }
 [System.Serializable]
 public class Lineas {

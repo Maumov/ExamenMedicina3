@@ -168,7 +168,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.SandstormStudios.ExamenDeMedicina
   buildNumber: {}
-  AndroidBundleVersionCode: 5
+  AndroidBundleVersionCode: 7
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 28
   AndroidPreferredInstallLocation: 1
