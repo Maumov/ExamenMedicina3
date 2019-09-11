@@ -8,7 +8,7 @@ using System;
 
 public class PracticaViewer : ExamenViewer {
 
-    public Color green, red;
+    public Sprite green, red;
     
     public string parrafo = "Cual es este video?";
     public string rightAnswer;
@@ -66,10 +66,10 @@ public class PracticaViewer : ExamenViewer {
         Toggle[] toggles = GetComponentsInChildren<Toggle>();
         for(int i = 0; i < toggles.Length; i++) {
             if(toggles[i].GetComponentInChildren<Text>().text == rightAnswer) {
-                toggles[i].GetComponent<Image>().color = green;
+                toggles[i].GetComponent<Image>().sprite = green;
             } else {
                 if(toggles[i].isOn) {
-                    toggles[i].GetComponent<Image>().color = red;
+                    toggles[i].GetComponent<Image>().sprite = red;
                 }
                 
             }
