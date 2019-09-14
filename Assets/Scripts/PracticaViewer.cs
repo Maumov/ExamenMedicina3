@@ -62,6 +62,8 @@ public class PracticaViewer : ExamenViewer {
         VCP.SetVideo();
     }
 
+
+
     public void ShowAnswer() {
         Toggle[] toggles = GetComponentsInChildren<Toggle>();
         for(int i = 0; i < toggles.Length; i++) {

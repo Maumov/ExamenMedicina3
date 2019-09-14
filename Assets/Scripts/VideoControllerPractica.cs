@@ -17,6 +17,8 @@ public class VideoControllerPractica : MonoBehaviour
     int currentNumbers = 0;
 
     public Animator anim;
+
+    public VideoControllerPractica maximized;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,12 @@ public class VideoControllerPractica : MonoBehaviour
         if(currentNumbers >= video.videos[videoSelected].numbers.Count) {
             currentNumbers = 0;
         }
+    }
+
+    public void Maximize() {
+        maximized.video = video;
+        maximized.videoSelected = videoSelected;
+        maximized.SetVideo();
     }
 
 

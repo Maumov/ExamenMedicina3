@@ -139,11 +139,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 589808288}
     m_Modifications:
-    - target: {fileID: 2892736273718131089, guid: 2da0eeeb9271ff14282f4047b51b9d00,
-        type: 3}
-      propertyPath: m_Name
-      value: TextWithoutBackground
-      objectReference: {fileID: 0}
     - target: {fileID: 3451959842465001562, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -248,6 +243,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2892736273718131089, guid: 2da0eeeb9271ff14282f4047b51b9d00,
+        type: 3}
+      propertyPath: m_Name
+      value: TextWithoutBackground
       objectReference: {fileID: 0}
     - target: {fileID: 396047385218715309, guid: 2da0eeeb9271ff14282f4047b51b9d00,
         type: 3}
