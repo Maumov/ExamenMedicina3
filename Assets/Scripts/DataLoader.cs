@@ -332,4 +332,41 @@ public class DataLoader : MonoBehaviour {
     }
     #endregion
 
+    public string TestToCheck;
+    public List<Question> questions;
+    [ContextMenu("Test check")]
+    public void TestChecker() {
+        questions = new List<Question>();
+        int val = 0;
+        int init = 0;
+        int finish = 0;
+        Debug.Log(TestToCheck);
+        for(int i = 0; i < TestToCheck.Length; i++) {
+            //Debug.Log(TestToCheck[i]);
+            if(TestToCheck[i].ToString() == "}") {
+                val--;
+                if(val == 0) {
+                    finish = i;
+                }
+                Debug.Log("Close");
+            }
+            if(TestToCheck[i].ToString() == "{") {
+                if(val == 0) {
+                    init = i;
+                }
+                val++;
+                Debug.Log("Open");
+            }
+
+            if(val == 0) {
+                Debug.Log(TestToCheck.Substring(init, finish - init));
+                questions.Add(GenerateQuestion(TestToCheck.Substring(init, finish - init)));
+            }
+        }
+    }
+    public Question GenerateQuestion(string pregunta) {
+        Question q;
+        q = CreatePregunta(pregunta);
+        return q;
+    }
 }

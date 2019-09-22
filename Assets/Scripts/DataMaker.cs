@@ -236,7 +236,7 @@ public class Question {
         for(int i = 0; i< preguntas.Count; i++) {
             s += "{" + preguntas[i] + " ; Respuesta: " + respuestasEstudiante[i] + "}";
         }
-        s += "}";
+        s += "}}";
         return s;
     }
 }
