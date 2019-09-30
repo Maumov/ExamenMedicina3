@@ -13,6 +13,7 @@ public class PracticaViewer : ExamenViewer {
     public string parrafo = "Cual es este video?";
     public string rightAnswer;
 
+    public Button CheckButton;
     public override void ShowExamen() {
         ShowQuestion();
     }
@@ -62,8 +63,6 @@ public class PracticaViewer : ExamenViewer {
         VCP.SetVideo();
     }
 
-
-
     public void ShowAnswer() {
         Toggle[] toggles = GetComponentsInChildren<Toggle>();
         for(int i = 0; i < toggles.Length; i++) {
@@ -82,6 +81,10 @@ public class PracticaViewer : ExamenViewer {
         DeleteContent();
         currentPregunta++;
         ShowQuestion();
+    }
+
+    public void ActivateButton() {
+        CheckButton.interactable = true;
     }
 }
 public static class ExtensionRandomList {
