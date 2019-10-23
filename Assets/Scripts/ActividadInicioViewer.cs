@@ -8,6 +8,7 @@ public class ActividadInicioViewer : BaseInterface {
     public GameObject inicioTallerCanvas;
     public GameObject inicioPracticaCanvas;
     public GameObject inicioExamenCanvas;
+    public GameObject inicioPodcastCanvas;
 
     public Text nombreEstudiante;
 
@@ -31,5 +32,10 @@ public class ActividadInicioViewer : BaseInterface {
     {
         gameObject.SetActive(false);
         inicioExamenCanvas.SetActive(true);
+    }
+    public void BotonPodcast()
+    {
+        gameObject.SetActive(false);
+        inicioPodcastCanvas.SetActive(true);
     }
 }
